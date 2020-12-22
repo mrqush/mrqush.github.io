@@ -1,0 +1,635 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+header {
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-heading {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 18px;
+    margin-top: 19px;
+    line-height: 1.31;
+}
+
+.logo-heading span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-nav {
+    padding-top: 10px;
+}
+
+.navigation-item {
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    border-radius: 5px;
+    padding: 5px 4px;
+}
+
+.navigation-item:first-child {
+    margin: 0;
+}
+
+.navigation-item:hover {
+    background: #d3b9f9;
+    cursor: pointer;
+}
+
+.call {
+    color: #2f1059;
+    font-weight: bold;
+    margin-left: 36px;
+    padding-top: 5px;
+}
+
+.number {
+    font-size: 21px;
+    line-height: 0.81;
+}
+
+.recall {
+    font-size: 14px;
+    margin-top: 18px;
+    border: solid 1px #2f1059;
+    border-radius: 5px;
+    padding: 9px 12px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color:#2f1059;
+}
+
+#main {
+    background: url(../img/bg.png) no-repeat;
+    height: 627px;
+    padding-top: 29px;
+    position: relative;
+}
+.main-heading {
+    background: url(../img/clouds.png);
+    margin: 0 auto;
+    width: 1111px;
+    padding-top: 43px;
+    padding-bottom: 40px;
+}
+
+.main-heading h2 {
+    text-align: center;
+    color: #2f1059;
+}
+
+.heading-first {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.27;
+    margin: 0;
+}
+
+.heading-first span {
+    font-weight: bold;
+}
+
+.heading-second {
+    text-transform: uppercase;
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 0.4;
+    letter-spacing: 0.86px;
+    margin-top: 23px;
+    margin-bottom: 11px;
+}
+
+.heading-third {
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.heading-third span {
+    font-weight: bold;
+}
+
+.form {
+    background: url(../img/form.png) no-repeat;
+    margin: 0 auto;
+    width: 915px;
+    height: 378px;
+    margin-top: 120px;
+    padding-top: 71px;
+}
+
+.form-heading {
+    color: #fff;
+    text-align: center;
+}
+
+.form-first {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.04;
+    margin-bottom: 6px;
+}
+
+.form-second {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.47;
+    margin: 0;
+}
+
+form {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+input {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.06;
+    color: rgba(0, 0, 0, 0.46);
+    padding-left: 36px;
+    border-radius: 5px;
+    border: 0;
+    width: 201px;
+    height: 51px;
+}
+
+.form-item {
+    display: inline;
+    position: relative;
+}
+
+.form-item i:first-child {
+    position: absolute; 
+    left: 15px;
+    top: 0px;
+    color: grey;
+}
+
+.form-item i:nth-child(2) {
+    position: absolute; 
+    left: 15px;
+    top: 0px;
+    color: grey;
+}
+
+.form-item:nth-child(2) {
+    margin-left: 8px;
+    margin-right: 7px;
+}
+
+.form-button {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d22828;
+    border-radius: 5px;
+    border: 0;
+    padding: 0px 27px;
+    height: 51px;
+}
+
+.form-button:hover {
+    cursor: pointer;
+}
+
+.flats-left {
+    font-size: 15.5px;
+    font-weight: 300;
+    color: #7925ec;
+    text-align: center;
+    margin-top: 41px;
+}
+
+.flats-left span {
+    font-size: 20.5px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: solid 1px #7925ec;
+    padding: 4px 5px;
+}
+
+#advantages {
+    height: 313px;
+}
+
+#advantages .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adv-item {
+    background: url(../img/adv.png) no-repeat;
+    height: 146px;
+    width: 153px;
+}
+
+.adv-item-p {
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.18;
+}
+
+ .adv-item:first-child {
+    padding: 52px 30px;
+    margin-top: 140px;
+}
+
+.adv-item:nth-child(2) {
+    padding: 54px 0px;
+    padding-left: 6px;
+    margin-top: 79px;
+}
+
+.adv-item:nth-child(3) {
+    padding: 47px 0px;
+    padding-left: 5px;
+    margin-top: 27px;
+}
+
+.adv-item:nth-child(4) {
+    padding: 43px 0px;
+    padding-left: 5px;
+    margin-top: 27px;
+}
+
+.adv-item:nth-child(5) {
+    padding: 44px 0px;
+    padding-left: 5px;
+    margin-top: 79px;
+}
+
+.adv-item:nth-child(6) {
+    padding: 34px 0px;
+    padding-left: 8px;
+    margin-top: 140px;
+} 
+
+#house-ready {
+    background: url(../img/section-bg.png) no-repeat;
+    height: 208px;
+    color: #ffffff;
+    padding-top: 27px;
+}
+
+.house-ready-headings {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.house-ready-headings h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.47;  
+    margin: 0;
+}
+
+.house-ready-heading-second {
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+.house-ready-heading-second p {
+    display: inline;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.9;
+}
+
+#location {
+    padding-top: 52px;
+}
+
+.section-heading {
+    text-transform: uppercase;
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 1.19;
+    letter-spacing: 0.74px;
+    text-align: center;
+}
+
+.location-headings h4 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2.2;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.location-advantages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-advantages-item {
+    line-height: 1.53;
+    text-align: center;
+}
+
+.location-advantages-item img {
+    width: 369px;
+}
+
+.location-advantages-heading {
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.location-advantages-paragraph {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.location-advantages-item:nth-child(2) {
+    margin-top: 44px;
+}
+
+#infrastructure {
+    background: url(../img/section2-bg.png) no-repeat;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.infractructure-list {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.infractructure-list ul {
+    padding: 0;
+}
+
+.infractructure-list-heading {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 2.32;
+    letter-spacing: 0.38px;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+
+.correct-shadow {
+    width: 263px;
+}
+
+.infractructure-list-item li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.31;
+    letter-spacing: 0.32px;
+}
+
+.infractructure-list-item li:after {
+    content: "";
+    display: block;
+    width: 340px;
+    height: 1px;
+    background-color: black;
+    color: black;
+    opacity: 0.09;
+}
+
+#green {
+    background: url(../img/poloska-bg.png) no-repeat;
+    color: #fbfafa;
+    height: 115px;
+}
+
+.green-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.green-text {
+    float: right;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.green-text p {
+    margin: 0;
+    font-weight: 300;
+}
+
+.green-heading {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.18;
+    color: #fbfafa;
+    width: 266px;
+    margin: 0;
+}
+
+.green-item img {
+    margin-top: 28px;
+}
+
+.correct-width {
+    width: 283px;
+}
+
+#construction {
+    padding-top: 84px;
+    padding-bottom: 71px;
+}
+
+.construction-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.construction-list-item {
+    width: 302px;
+}
+
+.construction-list-item-heading {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.construction-list-item-p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.47;
+}
+
+.construction-list-item:nth-child(3) {
+    width: 320px;
+}
+
+#equipment {
+    padding-top: 75px;
+    padding-bottom: 80px;
+    color: #fff;
+    background: url(../img/О\ проекте\ -\ архитектура.png);
+}
+
+.equipment-content-heading {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 2.32;
+    letter-spacing: 0.38px;
+}
+
+.equipment-item {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.equipment-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.equipment-item li {
+    display: inline;
+}
+
+.equipment-item li:after {
+    content: "";
+    display: block;
+    width: 340px;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.09;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#docs {
+    background: url(../img/text-bg.png) no-repeat;
+    padding-top: 83px;
+    padding-bottom: 36px;
+}
+
+.docs-p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 2.1;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.docs-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding-top: 26px;
+    padding-bottom: 9px;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-wrapper img {
+    height: max-content;
+}
+
+.logo-heading-footer {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.31;
+    display: inline-block;
+    margin-left: 18px;
+    margin-right: 69px;
+    margin-top: 16px;
+}
+
+.logo-heading-footer span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rights {
+    width: 213px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.31;
+    margin-right: 76px;
+    margin-top: 16px;
+}
+
+.rights span {
+    text-decoration: underline;
+}
+
+.contacts {
+    width: 290px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 126px;
+}
+
+.contacts span {
+    font-weight: bold;
+    line-height: 1.29;
+}
+
+.contacts p:nth-child(1) {
+    margin: 0;
+}
+
+.contacts p:nth-child(2) {
+    margin-top: 7px;
+}
+
+.call-footer {
+    display: inline-block;
+}
+
+.call-footer a {
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+.call-footer .number {
+    font-weight: bold;
+}
