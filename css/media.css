@@ -1,0 +1,239 @@
+@media screen and (max-width: 1450px){
+    .bakteria2{
+        left: -24%;
+    }
+}
+@media screen and (max-width: 1300px){
+    .bakteria2{
+        left: -29%;
+    }
+}
+@media screen and (max-width: 1199px){
+    .bakteria2{
+        display: none !important;
+    }
+    .bakteria{
+        display: none !important;
+    }
+    .control-img{
+        width: 46%;
+        height: 97%;
+    }
+    .call-form-wrapper{
+        display: block;
+    }
+    .tel-form{
+        margin-bottom: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .services__item{
+        width: 299px;
+    }
+    .services__item img{
+        max-width: 95%;
+    }
+    .price__item{
+        margin-top: 8px;
+        margin-right: 5%;
+    }
+    .reasons__item{
+        width: 50%;
+    }
+    .problems__item{
+        width: 44%;
+    }
+    .certif{
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .man{
+        right: -7%;
+    }
+    .gif{
+        right: 52%;
+    }
+    .form{
+        right: 14px;
+    }
+    .man-form{
+        right: -42%;
+    }
+}
+@media screen and (max-width: 991px){
+    .man{
+        display: none;
+    }
+    .gif{
+        display: none;
+    }
+    .tel{
+        font-size: 24px;
+    }
+    .services_wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services__item{
+        width: 51%;
+        margin-bottom: 15px;
+    }
+    .services__item img {
+        width: 326px;
+    }
+    .special img{
+        width: 28px;
+    }
+    .man-form{
+        display: none;
+    }
+    .ready__item{
+        width: 49%;
+    }
+    .problems__item{
+        width: 85%;
+        margin-bottom: 53px;
+    }
+    .control-img{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .pr_wrp{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .problems__item{
+        margin-right: 0;
+    }
+    .problems_wrapper{
+        justify-content: center;
+    }
+    .contacts {
+        float: left;
+        margin-top: 30px;
+    }
+    .tel{
+        margin-right: 50px;
+        float: left;
+    }
+    .adress:after{
+        margin-left: 0;
+    }
+    .vk{
+        float: left;
+    }
+    .main__advantages_item:last-child{
+        margin-left: 0;
+    }
+    .main__advantages_item{
+        width: 31%;
+    }
+    .special{
+        padding-right: 10px;
+    }
+    .reasons__item{
+        padding-left: 128px;
+    }
+    .form {
+        position: relative;
+        right: 0;
+        margin: 0 auto;
+    }
+    .services{
+        padding-bottom: 20px;
+    }
+    .request_wrapper{
+        text-align: center;
+    }
+    #map{
+        width: 450px;
+    }
+    .footer-p:last-child {
+        float: left;
+    }
+}
+@media screen and (max-width: 575px){
+    .container{
+        width: 90%;
+    }
+    .ready__item{
+        width: auto;
+    }
+    .reasons__item{
+        width: auto;
+    }
+    .services__item{
+        width: auto;
+    }
+    .cert-circle{
+        display: none;
+    }
+    h2:after{
+        width: auto;
+    }
+    #map{
+        width: 95%;
+    }
+    .main__advantages_item {
+        width: 100%;
+    }
+    .main__advantages{
+        flex-wrap: wrap;
+    }
+    .item_heading{
+        margin-top: 15px;
+    }
+    .main_button{
+        font-size: 15px;
+    }
+    .problems__info{
+        width: auto;
+    }
+    .contacts-footer span {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .call-wrapper{
+        width: 95%;
+    }
+    .form{
+        right: 28px;
+        width: 110%;
+    }
+    .form_input{
+        width: 100%;
+    }
+    .banner{
+        width: 98%;
+    }
+    .problems__img {
+        width: 100%;
+    }
+    .tel-form{
+        width: 100%;
+    }
+    .submit-btn{
+        padding: 12px 20px;
+    }
+    .main_button{
+        font-size: 10px;
+    }
+    .problems__info_second {
+        padding-bottom: 10px;
+    }
+    .tel{
+        font-size: 21px;
+        margin-right: 23px;
+    }
+    h2{
+        font-size: 37px;
+    }
+    .info-order{
+        font-size: 15px;
+    }
+    .problems__info{
+        height: auto;
+    }
+}
