@@ -1,0 +1,500 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Thin'), local('BebasNeue-Thin'), url('../fonts/bebasneuethin.woff2') format('woff2'), url('../fonts/bebasneuethin.woff') format('woff'), url('../fonts/bebasneuethin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Light'), local('BebasNeue-Light'), url('../fonts/bebasneuelight.woff2') format('woff2'), url('../fonts/bebasneuelight.woff') format('woff'), url('../fonts/bebasneuelight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Book'), local('BebasNeueBook'), url('../fonts/bebasneuebook.woff2') format('woff2'), url('../fonts/bebasneuebook.woff') format('woff'), url('../fonts/bebasneuebook.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Regular'), local('BebasNeueRegular'), url('../fonts/bebasneueregular.woff2') format('woff2'), url('../fonts/bebasneueregular.woff') format('woff'), url('../fonts/bebasneueregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'), url('../fonts/bebasneuebold.woff2') format('woff2'), url('../fonts/bebasneuebold.woff') format('woff'), url('../fonts/bebasneuebold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Phage";
+    src: url("../fonts/Phage.ttf") format("truetype");
+    src: url("../fonts/Phage.eot"); 
+    src: url("../fonts/Phage.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Phage.woff") format("woff"); 
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/MyriadPro.ttf") format("truetype");
+    src: url("../fonts/MyriadPro.eot"); 
+    src: url("../fonts/MyriadPro.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadPro.woff") format("woff");
+}
+@font-face {
+    font-family: "Microsoft Sans Serif";
+    src: url("../fonts/Microsoft\ sans\ serif.ttf") format("truetype");
+    src: url("../fonts/Microsoft\ sans\ serif.eot"); 
+    src: url("../fonts/Microsoft\ sans\ serif.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Microsoft\ sans\ serif.woff") format("woff"); 
+}
+@font-face {
+    font-family: "FuturaRoundBold";
+    src: url("../fonts/FuturaRoundBold/FuturaRoundBold.eot");
+    src: url("../fonts/FuturaRoundBold/FuturaRoundBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/FuturaRoundBold/FuturaRoundBold.woff") format("woff"),
+    url("../fonts/FuturaRoundBold/FuturaRoundBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: normal;
+    background: rgb(199,213,241);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(199,213,241,1)), to(rgba(148,162,190,1)));
+    background: linear-gradient(90deg, rgba(199,213,241,1) 0%, rgba(148,162,190,1) 100%);
+}
+
+.container-my {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section__heading{
+    font-family: "Phage";
+    font-size: 41px;
+    color: #0028ff;
+    line-height: 56.27px;
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+.header{
+    padding-top: 30px;
+    background: url(../img/man2.png) no-repeat bottom right;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.nav{
+   margin-left: 5px; 
+   z-index: 4;
+}
+
+.nav-item{
+    font-family: "Microsoft Sans Serif";
+    color: #4B4B4B;
+    line-height: 29.03px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 38px;
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-item:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    background: url(../img/logo.png) no-repeat;
+    position: absolute;
+    right: 5%;
+    height: 95px;
+    width: 71px;
+    top: 3%;
+}
+
+.online-svg{
+    background: url(../img/online-svg.png) no-repeat;
+    width: 399px;
+    height: 439px;
+    position: absolute;
+    right: 3%;
+    top: 31%;
+}
+
+.time{
+    font-family: "Bebas Neue";
+    font-size: 62px;
+    color: #0028ff;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 55px;
+}
+
+.time span{
+    font-family: "Bebas Neue";
+    font-weight: 300;
+}
+
+.main__heading{
+    font-family: "Phage";
+    font-size: 97px;
+    color: #0028ff;
+    line-height: 86.27px;
+    text-transform: uppercase;
+    margin-top: 130px;
+    margin-bottom: 44px;
+}
+
+.main__text{
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 74px;
+    line-height: 1.2;
+    width: 70%;
+}
+
+.register__button{
+    font-family: "Microsoft Sans Serif";
+    font-size: 29px;
+    text-transform: uppercase;
+    letter-spacing: 6.71px;
+    padding: 25px 50px;
+    color: #fefefe;
+    background-color: #0028ff;
+    border: none;
+}
+
+.register__button:hover{
+    text-decoration: none;
+    color: #fefefe;
+    background: #4D65FF;
+}
+
+.link{
+    font-family: "Myriad Pro";
+    font-size: 26px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 18.75px;
+    position: absolute;
+    right: 2%;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.about{
+    background: url(../img/about-bg.png);
+    background-color:rgba(0, 0, 0, 0.001);
+    padding-top: 70px;
+    padding-bottom: 102px;
+    position: relative;
+}
+
+.about-pic{
+    background: url(../img/online-svg.png);
+    position: absolute;
+    height: 878px;
+    width: 399px;
+    right: 3%;
+    top: 3px;
+}
+
+.about__text{
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 74px;
+    margin-top: 21px;
+    width: 68%;
+}
+
+.about__text span{
+    font-family: "FuturaRoundBold";
+}
+
+.schedule{
+    padding-top: 65px;
+    padding-bottom: 63px;
+}
+
+.schedule__item{
+    list-style: none;
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: flex;
+    margin-bottom: 26px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.schedule__item:after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+}
+
+.schedule__item-left{
+    margin-right: 50px;
+}
+
+.schedule__item:last-child{
+    margin-bottom: 0;
+}
+
+.speakers{
+    background: #0028ff;
+    padding-top: 95px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.speakers-pic{
+    background: url(../img/speakers.png) no-repeat;
+    position: absolute;
+    width: 750px;
+    height: 1498px;
+    mix-blend-mode: color-burn;
+    right: 0;
+}
+
+.speakers .section__heading{
+    color: #fff;
+}
+
+.speakers__wrapper{
+    margin-top: 50px;
+}
+
+.speakers__item{
+    /* background: url(../img/sp1.png) no-repeat center left; */
+    /* padding-left: 315px; */
+    /* height: 217px; */
+    margin-bottom: 45px;
+    margin-bottom: 80px;
+    padding-top: 29px;
+    display: flex;
+}
+
+.speakers__info{
+    font-family: "Microsoft Sans Serif";
+    font-weight: 400;
+    color: #fefefe;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: auto 0;
+}
+
+.speakers__item img{
+    width: 218px;
+    height: 218px;
+    margin-right: 30px;
+}
+
+.speakers__info span{
+    font-size: 27px;
+}
+
+/* .speakers__item:nth-child(2){
+    background: url(../img/sp2.png) no-repeat center left;
+}
+.speakers__item:nth-child(3){
+    background: url(../img/sp3.png) no-repeat center left;
+}
+.speakers__item:nth-child(4){
+    background: url(../img/sp4.png) no-repeat center left;
+}
+.speakers__item:nth-child(5){
+    background: url(../img/sp5.png) no-repeat center left;
+}
+.speakers__item:nth-child(6){
+    background: url(../img/sp6.png) no-repeat center left;
+}
+.speakers__item:nth-child(7){
+    background: url(../img/sp7.png) no-repeat center left;
+    margin-bottom: 0;
+} */
+
+.register{
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+
+.register__form{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.register__label{
+    font-family: "Microsoft Sans Serif";
+    color: #000000;
+    font-size: 25px;
+    line-height: 33.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: -webkit-box;
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.checkbox{
+    display: none;
+}
+
+.fake{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #0028ff;
+    position: relative;
+    margin-right: 10px;
+}
+
+.fake::before {
+    position: absolute;
+    content: '';
+    left: -5px;
+    display: block;
+    width: 74px;
+    height: 55px;
+    background: url(../img/check.png) no-repeat;
+    opacity: 0;
+}
+
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+
+.label__text{
+    width: 100%;
+    margin-top: 8px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */    /* Konqueror */      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.place{
+    display: inline-block;
+}
+
+.label__wrapper .register__label{
+    display: block;
+}
+
+.register__input{
+    display: block;
+    height: 32px;
+    margin-bottom: 12px;
+    background: transparent;
+    border: 1px solid #000000;
+    width: 100%;
+    outline: none;
+}
+
+.register__text{
+    font-family: "Microsoft Sans Serif";
+    color: #0028ff;
+    /* display: none; */
+    opacity: 0;
+}
+
+.register__bottom{
+    margin-top: 28px;
+}
+
+.register__bottom .register__button{
+    float: right;
+}
+
+.footer{
+    background: #0028ff;
+    padding-top: 30px;
+    padding-bottom: 61px;
+    font-family: "Microsoft Sans Serif";
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 27px;
+    position: relative;
+}
+
+.footer__heading{
+    font-size: 58px;
+    line-height: 65.53px;
+    margin-bottom: 20px;
+}
+
+.number{
+    margin-bottom: 30px;
+}
+
+.instagram{
+    background: url(../img/insta.png) no-repeat;
+    height: 42px;
+    padding-left: 72px;
+    margin-bottom: 18px;
+    margin-top: 70px;
+    padding-top: 5px;
+}
+
+.facebook{
+    background: url(../img/facebook.png) no-repeat;
+    height: 45px;
+    padding-left: 72px;
+    padding-top: 7px;
+}
+
+.hashtag{
+    margin-top: 18px;
+    margin-left: 72px;
+}
+
+.logo-footer{
+    background: url(../img/logo-footer.png) no-repeat;
+    position: absolute;
+    height: 329px;
+    width: 212px;
+    top: 0;
+    right: 0;
+}
+
+.show{
+    /* display: block; */
+    opacity: 1;
+    transition: .8s;
+}
+
+.hide{
+    display: none;
+}

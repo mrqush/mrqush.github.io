@@ -1,0 +1,179 @@
+@media screen and (max-width: 1199px){
+    .about-pic{
+        display: none;
+    }
+    .about__text{
+        width: 100%;
+    }
+    .main__heading{
+        font-size: 62px;
+    }
+    .logo-footer{
+        width: 177px;
+    }
+    .container-my{
+        max-width: 960px;
+    }
+    .header{
+        background-position-x: 140px;
+    }
+}
+@media screen and (max-width: 991px){
+    .nav-item{
+        margin-right: 23px;
+    }
+    .main__text{
+        width: 47%;
+    }
+    .online-svg {
+        right: 0;
+        top: 47%;
+        background-size: 93%;
+        width: 380px;
+    }
+    .link{
+        bottom: 1%;
+    }
+    .main__heading{
+        margin-bottom: 78px;
+    }
+    .container-my{
+        max-width: 720px;
+    }
+    .about{
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container-my{
+        max-width: 540px;
+    }
+    .nav{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+    }
+    .header{
+        padding-bottom: 570px;
+        background-position-x: 0;
+        background-size: 100%;
+    }
+    .main__heading{
+        text-align: center;
+        font-size: 11.5vw;
+    }
+    .main__text{
+        text-align: center;
+        width: 100%;
+        font-size: 24px;
+    }
+    .main__wrapper .register__button{
+        display: none;
+    }
+    .online-svg{
+        width: 280px;
+        top: 73%;
+        right: 0;
+    }
+    .time{
+        text-align: center;
+    }
+    .speakers__info{
+        font-size: 17px;
+    }
+    .register__text{
+        margin-bottom: 20px;
+    }
+    .register__label{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px){
+    .link{
+        right: calc(50% - 155px);
+    }
+    .container-my{
+        max-width: 95%;
+    }
+    .main__heading {
+        line-height: 1.4;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .section__heading {
+        font-size: 34px;
+    }
+    .main__text{
+        font-size: 18px;
+        margin-bottom: 90px;
+    }
+    .time{
+        font-size: 11.5vw;
+    }
+    .header{
+        padding-bottom: 100%;
+        background-position-x: 70%;
+        background-size: 140%;
+    }
+    .link{
+        font-size: 20px;
+        letter-spacing: 9.75px;
+        bottom: 1px;
+    }
+    .online-svg{
+        height: 201px;
+        width: 193px;
+        top: 75%;
+    }
+    .register__button{
+        font-size: 22px;
+        padding: 25px 22px;
+    }
+    .schedule__item{
+        font-size: 17px;
+    }
+    .speakers__item{
+        padding-left: 0;
+        text-align: center;
+        background-position-x: 50% !important;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .speakers__item img {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .speakers{
+        padding-bottom: 150px;
+    }
+    .register__label{
+        font-size: 17px;
+    }
+    .register__bottom .register__button {
+        float: none;
+    }
+    .logo-footer{
+        display: none;
+    }
+    .footer{
+        font-size: 19px;
+    }
+    .footer__heading{
+        font-size: 51px;    
+    }
+    .instagram{
+        padding-left: 62px;
+    }
+    .hashtag{
+        margin-left: 0;
+    }
+    .schedule__item-left {
+        margin-right: 14px;
+    }
+}
+ @media screen and (max-width: 490px){
+    #tel{
+        height: 65px;
+    }
+ }
