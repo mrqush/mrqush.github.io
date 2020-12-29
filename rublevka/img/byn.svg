@@ -1,0 +1,13 @@
+<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="40" rx="2" fill="white"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="40">
+<rect width="48" height="40" rx="2" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 26.6667H48V0H0V26.6667Z" fill="#E54252"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 40.0001H48V26.6667H0V40.0001Z" fill="#5CBE6B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H6.85714V6.00001L5.71429 8L6.85714 9.99999V14L5.71429 16L6.85714 18V22L5.71429 24L6.85714 26V30L5.71429 32L6.85714 34V40H0V0Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-1.14275 4L-3.42847 8L-1.14275 12L-3.42847 16L-1.14275 20L-3.42847 24L-1.14275 28L-3.42847 32L-1.14275 36L1.14296 32L-1.14275 28L1.14296 24L-1.14275 20L1.14296 16L-1.14275 12L1.14296 8L-1.14275 4Z" fill="#E54252"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1.14282 4L3.42854 0L5.71425 4L3.42854 8L1.14282 4ZM3.42854 16L1.14282 12L3.42854 8L5.71425 12L3.42854 16ZM3.42854 24L1.14282 20L3.42854 16L5.71425 20L3.42854 24ZM3.42854 32L5.71425 28L3.42854 24L1.14282 28L3.42854 32ZM3.42854 32L5.71425 36L3.42854 40L1.14282 36L3.42854 32Z" fill="#E54252"/>
+</g>
+</svg>
