@@ -188,4 +188,10 @@
         width: 100%;
         text-align: left;
     }
+    .gbt_block_calc p {
+        display: none;
+    }
+    .bootstrap-select .dropdown-menu li {
+        width: 147px !important;
+    }
 }
